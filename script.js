@@ -443,3 +443,14 @@ function randomNumberUpTo(max) {
   return Math.floor(Math.random * max);
 }
 
+function randomQuote(quotes) {
+  const randomNumber = randomNumberUpTo(quotes.length);
+  return quotes[randomNumber].quote;
+}
+
+function randomAuthor(quotes) {
+  const randomNumber = randomNumberUpTo(quotes.length);
+  return quotes[randomNumberUpTo].author;
+}
+
+
