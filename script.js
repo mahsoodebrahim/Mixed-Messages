@@ -440,7 +440,7 @@ const quotes = [
 ];
 
 function randomNumberUpTo(max) {
-  return Math.floor(Math.random * max);
+  return Math.floor(Math.random() * max);
 }
 
 function randomQuote(quotes) {
@@ -450,7 +450,12 @@ function randomQuote(quotes) {
 
 function randomAuthor(quotes) {
   const randomNumber = randomNumberUpTo(quotes.length);
-  return quotes[randomNumberUpTo].author;
+  return quotes[randomNumber].author;
+}
+
+function displayQuote(quoteType, quotes) {
+  console.log(`${quoteType}: ${randomQuote(quotes)}`);
+  console.log(`Author: ${randomAuthor(quotes)}`);
 }
 
 
