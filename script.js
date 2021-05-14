@@ -439,3 +439,7 @@ const quotes = [
   { quote: "If you can dream it, you can achieve it.", author: "Zig Ziglar" },
 ];
 
+function randomNumberUpTo(max) {
+  return Math.floor(Math.random * max);
+}
+
