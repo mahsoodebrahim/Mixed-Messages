@@ -8,7 +8,7 @@ Daily dose of randomized qutoes
 
 ## General info
 
-The purpose of this project is to build a message generating program that displays a randomized output qutoes and authors associated with those quotes. Further, it was to practice using JavaScipt, Git, and GitHub. 
+The purpose of this project is to build a message generating program that displays a randomized output quotes and authors associated with those quotes. Further, it was to practice using JavaScipt, Git, and GitHub. 
 
 ## Technologies
 
