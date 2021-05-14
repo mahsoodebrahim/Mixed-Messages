@@ -19,6 +19,7 @@ function displayRandomQuote(quoteType, quotes) {
 
 function intro() {
   console.log('='.repeat(30) + ' MIXED MESSAGES ' + '='.repeat(30))
+  console.log('This is your daily dose of quotes, yet one should wonder, did these authors really say this????\n')
 }
 
 function main() {
